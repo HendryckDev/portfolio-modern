@@ -10,7 +10,7 @@ export const navItems = [
       id: 1,
       title: "Criação de sites responsivos para a melhor visualização em todas as resoluções.",
       description: "",
-      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
       img: "/b1.svg",
@@ -20,7 +20,7 @@ export const navItems = [
       id: 2,
       title: "Meu conhecimento",
       description: "Eu constantemente tento melhorar",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+      className: "flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100",
       imgClassName: "",
       titleClassName: "justify-start",
       img: "",
@@ -29,11 +29,11 @@ export const navItems = [
     {
       id: 3,
       title: "Entusiasta de tecnologia e apaixonado por desenvolvimento.",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+      className: "flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100",
       imgClassName: "",
       titleClassName: "justify-center",
-      img: "",
-      spareImg: "",
+      img: "/grid.svg",
+      spareImg: "b4.svg",
     },
   ];
   
