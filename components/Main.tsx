@@ -41,7 +41,7 @@ const Main = () => {
                 {/* <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>Olá, meu nome é &lt;Hendryck/&gt;</h2> */}
                 <TypewriterEffectSmooth className='text-center text-[40px] md:text-5xl lg:text-6xl' words={words} />
                 <p className='tracking-widest text-base text-center mb-4 text-blue-100'>Desenvolvendo projetos em Javascript, ReactJs e NextJs.</p>
-                <a href='#about'>
+                <a href='#projects'>
                   <ShimerButton 
                     title="Veja meus projetos"
                     icon={<FaLocationArrow />}
