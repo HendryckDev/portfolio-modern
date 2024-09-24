@@ -5,7 +5,7 @@ import { FaLocationArrow } from 'react-icons/fa'
 
 const Projects = () => {
     return (
-        <div className='py-40' id='projects'>
+        <div className='pt-40' id='projects'>
             <h1 className='heading text-white'>
                 Meus {''}
                 <span className='text-purple'>Projetos Recentes</span>
@@ -52,7 +52,6 @@ const Projects = () => {
                                         className="px-6 py-4 rounded-xl bg-[#0F0129] dark:bg-white text-white text-sm font-bold flex justify-center items-center"
                                     >
                                         View code
-                                        <FaLocationArrow className='ms-3' color='#CBACF9' />
                                     </CardItem>
                                 </div>
                             </CardBody>

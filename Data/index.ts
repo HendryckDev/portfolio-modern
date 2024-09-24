@@ -125,31 +125,24 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Frontend - AdaptEd",
+      desc: "Trabalhei como front end na Adapt Edtech, em criações de sites para falcudades/universidades",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      thumbnail: "/front-end.png",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Backend - Discord bot",
+      desc: "Já desenvolvi um bot de discord para um cliente feito 100% em javascript",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
+      thumbnail: "/backend.png",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "Freelance Frontend",
+      desc: "Tenho experiencia como freelancer para projetos como landing page",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
-    },
-    {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
-      className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
+      thumbnail: "/freelancer.png",
     },
   ];
   

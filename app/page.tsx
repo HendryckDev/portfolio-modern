@@ -1,4 +1,4 @@
-import Experience from "@/components/experience";
+import Experiencia from "@/components/Experiencia";
 import Grid from "@/components/Grid";
 import Main from "@/components/Main";
 import Projects from "@/components/Projects";
@@ -13,7 +13,7 @@ export default function Home() {
         <Main />
         <Grid />
         <Projects />
-        <Experience />
+        <Experiencia />
       </div>
     </main>
   );
