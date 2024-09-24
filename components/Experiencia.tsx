@@ -14,7 +14,7 @@ const Experiencia = () => {
                     <span className='text-purple'>Experiencia de Trabalho</span>
                 </h1>
             </LampContainer>
-            <div className='w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10 z-50 relative -top-52'>
+            <div className='w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10 z-50 relative '>
                 {workExperience.map((card) =>
                     <Button key={card.id} borderRadius='1.75rem' duration={Math.floor(Math.random() * 10000) + 10000} className='flex-1 text-white border-[#7E29FC]'>
                         <div className='flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2'>

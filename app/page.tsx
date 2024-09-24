@@ -1,4 +1,5 @@
 import Experiencia from "@/components/Experiencia";
+import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Main from "@/components/Main";
 import Projects from "@/components/Projects";
@@ -14,6 +15,7 @@ export default function Home() {
         <Grid />
         <Projects />
         <Experiencia />
+        <Footer />
       </div>
     </main>
   );

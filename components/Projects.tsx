@@ -1,7 +1,6 @@
 import { projects } from '@/Data'
 import React from 'react'
 import { CardBody, CardContainer, CardItem } from './ui/3d-card'
-import { FaLocationArrow } from 'react-icons/fa'
 
 const Projects = () => {
     return (
