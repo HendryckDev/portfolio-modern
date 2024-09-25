@@ -1,6 +1,8 @@
 import { projects } from '@/Data'
 import React from 'react'
 import { CardBody, CardContainer, CardItem } from './ui/3d-card'
+import Link from "next/link";
+
 
 const Projects = () => {
     return (
@@ -47,7 +49,9 @@ const Projects = () => {
                                     </CardItem>
                                     <CardItem
                                         translateZ={20}
-                                        as="button"
+                                        as={Link}
+                                        href="https://github.com/HendryckDev"
+                                        target="__blank"
                                         className="px-6 py-4 rounded-xl bg-[#0F0129] dark:bg-white text-white text-sm font-bold flex justify-center items-center"
                                     >
                                         View code

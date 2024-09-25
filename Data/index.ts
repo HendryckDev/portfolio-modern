@@ -13,7 +13,7 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/b1.svg",
+      img: "/bg-1.png",
       spareImg: "",
     },
     {
@@ -44,7 +44,6 @@ export const navItems = [
       des: "Formulario feito totalmente em ReactJS em propósito para aperfeiçoar minhas técnicas de programação.",
       img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
     },
     {
       id: 2,
@@ -52,7 +51,6 @@ export const navItems = [
       des: "Bot de discord feito totalmente em javascript com diversas funcionalidades.",
       img: "/p2.png",
       iconLists: ["/js.png", "/git.svg",],
-      link: "https://github.com/adrianhajdin/zoom-clone",
     },
   ];
   
@@ -84,13 +82,11 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/HendryckDev",
     },
     {
       id: 2,
-      img: "/twit.svg",
-    },
-    {
-      id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/hendrycknickolas/",
     },
   ];

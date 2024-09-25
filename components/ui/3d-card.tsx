@@ -100,7 +100,6 @@ export const CardItem = ({
   children,
   className,
   title,
-  href,
   translateX = 0,
   translateY = 0,
   translateZ = 0,

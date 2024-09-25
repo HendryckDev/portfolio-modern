@@ -164,8 +164,13 @@ const config = {
     },
     animation: {
       "meteor-effect": "meteor 5s linear infinite",
+      "loop-scroll": "loop-scroll 240s linear infinite"
     },
     keyframes: {
+      "loop-scroll": {
+        from: { transform: "translateY(0)" },
+        to: { transform: "translateY(-100%)" },
+      },
       meteor: {
         "0%": { transform: "rotate(215deg) translateX(0)", opacity: "1" },
         "70%": { opacity: "1" },
