@@ -12,7 +12,7 @@ const Projects = () => {
                 <span className='text-purple'>Projetos Recentes</span>
             </h1>
             <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-8 mt-10'>
-                {projects.map(({ id, title, des, img, iconLists, link }) => (
+                {projects.map(({ id, title, des, img, iconLists }) => (
                     <div key={id} className='sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]'>
                         <CardContainer className="inter-var">
                             <CardBody className="bg-[#130036] relative group/card border-[#4C298D] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
