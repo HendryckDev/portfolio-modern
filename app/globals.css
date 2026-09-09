@@ -108,4 +108,24 @@
   .tech-icon img { @apply max-h-full max-w-full; }
   .project-link { @apply inline-flex items-center gap-2 text-sm font-semibold text-white transition hover:text-purple; }
   .timeline-dot { @apply absolute -left-[35px] top-10 h-3 w-3 rounded-full border-2 border-[#06030d] bg-purple shadow-[0_0_16px_#CBACF9] md:-left-[59px]; }
+  .command-trigger { @apply fixed bottom-6 right-6 z-[60] flex h-14 w-14 items-center justify-center gap-1 rounded-2xl border border-purple/50 bg-[#19062e]/90 font-mono text-sm text-purple shadow-[0_0_28px_rgba(126,41,252,.3)] backdrop-blur-xl transition duration-300 hover:-translate-y-1 hover:border-purple hover:bg-[#2b0c50] md:bottom-8 md:right-8; }
+  .command-trigger svg { @apply text-xs opacity-70; }
+  .command-overlay { @apply fixed inset-0 z-[70] flex items-start justify-center bg-[#040108]/70 px-4 pt-[15vh] backdrop-blur-sm; }
+  .command-window { @apply w-full max-w-xl overflow-hidden rounded-2xl border border-purple/40 bg-[#10051d] shadow-[0_25px_100px_rgba(75,20,135,.4)]; }
+  .command-header { @apply flex items-start justify-between border-b border-white/10 p-6 md:p-7; }
+  .command-header h2 { @apply mt-2 text-xl font-semibold text-white md:text-2xl; }
+  .command-header button { @apply rounded-lg p-2 text-white-200 transition hover:bg-white/10 hover:text-white; }
+  .command-kicker { @apply font-mono text-[10px] tracking-[.2em] text-purple; }
+  .command-prompt { @apply mx-4 mt-4 flex items-center gap-2 rounded-lg border border-white/10 bg-[#08030f] px-4 py-3 font-mono text-xs; }
+  .command-prompt > span:first-child { @apply text-purple; }
+  .command-prompt kbd { @apply ml-auto rounded border border-white/10 px-1.5 py-0.5 text-[9px] text-white-200; }
+  .command-list { @apply space-y-1 p-4; }
+  .command-item { @apply flex w-full items-center gap-4 rounded-xl p-4 text-left transition hover:bg-purple/10; }
+  .command-symbol { @apply font-mono text-sm text-purple; }
+  .command-item strong { @apply block font-mono text-sm font-medium text-white; }
+  .command-item small { @apply mt-1 block text-xs text-white-200; }
+  .command-arrow { @apply ml-auto text-xs text-white/30 transition group-hover:text-purple; }
+  .command-item:hover .command-arrow { @apply text-purple; }
+  .command-footer { @apply border-t border-white/10 px-6 py-4 text-center font-mono text-[10px] text-white-200; }
+  .command-footer kbd { @apply mx-0.5 rounded border border-white/10 px-1.5 py-0.5 text-purple; }
 }
