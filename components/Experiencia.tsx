@@ -1,38 +1,9 @@
-import React from 'react'
-import { LampContainer } from './ui/lamp'
-import { motion } from "framer-motion";
 import { workExperience } from '@/Data';
-import { Button } from './ui/moving-border';
+import Reveal from './Reveal';
 
+const Experiencia = () => <Reveal><section className='py-32' id='experience'>
+  <p className='eyebrow'>Minha trajetória</p><h1 className='mt-3 text-4xl font-bold tracking-tight text-white md:text-6xl'>Experiência em <span className='text-purple'>movimento.</span></h1>
+  <div className='relative mt-14 space-y-4 border-l border-purple/40 pl-7 md:pl-12'>{workExperience.map((card) => <article key={card.id} className='timeline-card relative p-6 md:p-8'><span className='timeline-dot' /><div className='mb-4 flex flex-wrap items-center justify-between gap-2'><p className='font-mono text-xs uppercase tracking-[.18em] text-purple'>0{card.id} / experiência</p><span className='text-sm text-white-200'>Construção & evolução</span></div><div className='flex gap-5'><img src={card.thumbnail} alt='' className='h-14 w-14 object-contain' /><div><h2 className='text-xl font-bold text-white md:text-2xl'>{card.title}</h2><p className='mt-2 max-w-2xl leading-7 text-white-100'>{card.desc}</p></div></div></article>)}</div>
+</section></Reveal>;
 
-const Experiencia = () => {
-    return (
-        <div className='py-40' id='experience'>
-            <LampContainer>
-                <h1 className='heading text-white'>
-                    Minha {''}
-                    <span className='text-purple'>Experiencia de Trabalho</span>
-                </h1>
-            </LampContainer>
-            <div className='w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10 z-50 relative '>
-                {workExperience.map((card) =>
-                    <Button key={card.id} borderRadius='1.75rem' duration={Math.floor(Math.random() * 10000) + 10000} className='flex-1 text-white border-[#7E29FC]'>
-                        <div className='flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2'>
-                            <img src={card.thumbnail} alt={card.thumbnail} className='lg:w-32 md:w-20 w-16' />
-                            <div className='lg:ms-5'>
-                                <h1 className='text-start text-xl md:text-2xl font-bold'>
-                                    {card.title}
-                                </h1>
-                                <p className='text-start text-white-100 mt-3 font-semibold'>
-                                    {card.desc}
-                                </p>
-                            </div>
-                        </div>
-                    </Button>
-                )}
-            </div>
-        </div>
-    )
-}
-
-export default Experiencia
+export default Experiencia;

@@ -8,7 +8,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "Criação de sites responsivos para a melhor visualização em todas as resoluções.",
+      title: "Interfaces responsivas que parecem nativas em qualquer tela.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "w-full h-full",
@@ -18,8 +18,8 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Meu conhecimento",
-      description: "Eu constantemente tento melhorar",
+      title: "Aprendizado contínuo",
+      description: "Testo, estudo e refino a cada projeto.",
       className: "flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100",
       imgClassName: "",
       titleClassName: "justify-start",
@@ -28,7 +28,7 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "Entusiasta de tecnologia e apaixonado por desenvolvimento.",
+      title: "Tecnologia com intenção — não só tecnologia pela tecnologia.",
       className: "flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -44,6 +44,9 @@ export const navItems = [
       des: "Formulario feito totalmente em ReactJS em propósito para aperfeiçoar minhas técnicas de programação.",
       img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg"],
+      category: "Interface & formulário",
+      challenge: "Criar uma experiência de preenchimento simples e sem distrações.",
+      outcome: "Componentes reutilizáveis e interface responsiva em React.",
     },
     {
       id: 2,
@@ -51,6 +54,9 @@ export const navItems = [
       des: "Bot de discord feito totalmente em javascript com diversas funcionalidades.",
       img: "/p2.png",
       iconLists: ["/js.png", "/git.svg",],
+      category: "Automação & comunidade",
+      challenge: "Organizar recursos úteis em uma experiência prática para Discord.",
+      outcome: "Funcionalidades sob medida, escritas em JavaScript puro.",
     },
   ];
   
@@ -58,21 +64,21 @@ export const navItems = [
     {
       id: 1,
       title: "Frontend - AdaptEd",
-      desc: "Trabalhei como front end na Adapt Edtech, em criações de sites para falcudades/universidades",
+      desc: "Atuei no front-end da Adapt Edtech, criando sites para faculdades e universidades.",
       className: "md:col-span-2",
       thumbnail: "/front-end.png",
     },
     {
       id: 2,
       title: "Backend - Discord bot",
-      desc: "Já desenvolvi um bot de discord para um cliente feito 100% em javascript",
+      desc: "Desenvolvi um bot para Discord sob demanda, com funcionalidades construídas em JavaScript.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/backend.png",
     },
     {
       id: 3,
       title: "Freelance Frontend",
-      desc: "Tenho experiencia como freelancer para projetos como landing page",
+      desc: "Crio landing pages como freelancer, do layout à entrega responsiva.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/freelancer.png",
     },

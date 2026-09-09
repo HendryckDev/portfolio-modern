@@ -86,4 +86,26 @@
   .black-gradient {
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
   }
+
+  .text-gradient { @apply bg-gradient-to-r from-purple via-white to-purple bg-clip-text text-transparent; }
+  .eyebrow { @apply text-xs font-semibold uppercase tracking-[.22em] text-purple; }
+  .site-shell { background: radial-gradient(circle at 78% 18%, rgba(101, 40, 190, .20), transparent 22rem), radial-gradient(circle at 22% 70%, rgba(74, 22, 138, .12), transparent 26rem), #06030d; }
+  .hero-shell { background: transparent; }
+  .hero-orb { @apply absolute rounded-full blur-3xl; width: 28rem; height: 28rem; opacity: .24; background: #7e29fc; }
+  .hero-orb-one { top: 9%; right: -10%; }
+  .hero-orb-two { bottom: -22%; left: -13%; background: #32106b; }
+  .terminal-card { @apply relative rounded-2xl border border-white/10 bg-[#110522]/75 p-6 shadow-2xl backdrop-blur-xl md:p-7; box-shadow: 0 30px 70px rgba(46, 12, 92, .32); }
+  .terminal-card i { @apply h-2.5 w-2.5 rounded-full bg-white/20; }
+  .terminal-card i:first-child { @apply bg-purple; }
+  .terminal-card strong { @apply block text-lg text-white; }
+  .terminal-card span:not(.tag-chip) { @apply mt-1 block text-xs text-white-200; }
+  .tag-chip { @apply inline-flex rounded-full border border-purple/40 bg-purple/10 px-3 py-1 text-xs font-medium text-purple; }
+  .case-card, .timeline-card { @apply rounded-2xl border border-white/10 bg-[#10071d] transition duration-300; }
+  .case-card:hover, .timeline-card:hover { @apply border-purple/50; box-shadow: 0 16px 60px rgba(91, 34, 159, .16); }
+  .case-card dt { @apply mb-1 text-xs font-medium uppercase tracking-wider text-purple; }
+  .case-card dd { @apply text-sm leading-6 text-white-100; }
+  .tech-icon { @apply flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-[#08030f] p-2; }
+  .tech-icon img { @apply max-h-full max-w-full; }
+  .project-link { @apply inline-flex items-center gap-2 text-sm font-semibold text-white transition hover:text-purple; }
+  .timeline-dot { @apply absolute -left-[35px] top-10 h-3 w-3 rounded-full border-2 border-[#06030d] bg-purple shadow-[0_0_16px_#CBACF9] md:-left-[59px]; }
 }
